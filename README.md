@@ -13,10 +13,10 @@
 
  ## Setting up the environment 
  Steps for setting up the environment for the first time 
-1- Create a [google sheet][https://www.google.com/sheets/about/] from template **Monthly budget** s
-2- Download the script and copy it to your [google app script][https://developers.google.com/apps-script] 
-3- Configure your script trigger by selecting the event source [google app script][https://script.google.com/home/triggers] 
-4- Manually download your bank statement with your desired duration in **csv format** and uploaded it to your [google drive][https://www.google.com/intl/en_in/drive/] *(A schedule step which shall be done, every time you want to change the bank statement dates ex: Jan, Feb, March)*
+1. Create a [google sheet][https://www.google.com/sheets/about/] from template **Monthly budget** s
+2. Download the script and copy it to your [google app script][https://developers.google.com/apps-script] 
+3. Configure your script trigger by selecting the event source [google app script][https://script.google.com/home/triggers] 
+4. Manually download your bank statement with your desired duration in **csv format** and uploaded it to your [google drive][https://www.google.com/intl/en_in/drive/] *(A schedule step which shall be done, every time you want to change the bank statement dates ex: Jan, Feb, March)*
 
 ## Utilization 
 Easy steps to utilize the script to your custom needs
