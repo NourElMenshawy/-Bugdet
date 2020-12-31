@@ -5,11 +5,11 @@ var BarsRestaurants         = 0;
 var Shopping                = 0;
 var HouseholdUtilities	    = 0;
 var LeisureEntertainment    = 0;
-var TransportCar	          = 0;
-var HealthcareDrugStores	  = 0;
+var TransportCar	        = 0;
+var HealthcareDrugStores	= 0;
 var ATM                     = 0;	
 var Education               = 0;	
-var FamilyFriends	          = 0;
+var FamilyFriends	        = 0;
 var Cash26	                = 0;
 var Miscellaneous           = 0;
 var Travel                  = 0;
@@ -22,7 +22,6 @@ var sumValues               = [];
 var sumplan                 = [];
 var dates                  
 var startdate 
-
 //Import CSV file from google drive
 function importCSVFromDrive(ss) {
   var fileName = "n26-csv-transactions.csv"
