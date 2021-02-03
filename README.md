@@ -4,7 +4,7 @@
  The google script is compatible with the **N26 Bank** statement sheet. In general, it is compatible with any online bank that provides categories in the bank statements 
  
  ## Pipeline
- * Categorized bank statement with dates downloaded from your bank
+ * Categorized bank statements with dates downloaded from your bank
  * Google drive to host your bank statement 
  * Google sheet template **Monthly Budget**
  * Google app script to automatically parse the bank statement in which    calculation of planned in respect of actual expenses 
