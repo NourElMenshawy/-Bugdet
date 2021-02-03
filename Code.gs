@@ -286,6 +286,10 @@ function notifybyemail(ss){
     .setChartType(Charts.ChartType.BAR)
     .addRange(sheet.getRange("B25:E41"))
     .setPosition(5, 5, 0, 0)
+    .setOption('width', 1400)
+    .setOption('height', 900)
+    .setOption('hAxis.gridlines.count', 100)
+    .setOption('hAxis.gridlines.color','#1E4D6B')
     .build();
   
   var emailAddress =[]
@@ -324,7 +328,7 @@ function main(){
   parseStatements(ss);
   fillTransaction(ss);
   calculatePlanned(ss);
-  //notifybyemail(ss);
-  googleAssitantcallback(ss);
+  notifybyemail(ss);
+  //googleAssitantcallback(ss); //under deveoplement 
   Logger.log(ss.getName());
 }
